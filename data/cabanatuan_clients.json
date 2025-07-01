@@ -1,0 +1,33 @@
+[
+  {
+    "name": "April Sebastian",
+    "address": "557 Prk 2 Dist 1 San Juan Accfa, Cabanatuan City, Nueva Ecija",
+    "solarType": "Grid-tie with net metering",
+    "startDate": "2025-06-29T00:00:00.000Z",
+    "totalAmount": 228000,
+    "downPayment": 114000,
+    "paymentTermMonths": 12,
+    "monthlyPayment": 9500,
+    "penaltyRate": 0.05,
+    "paymentOverrides": {
+      "1": {
+        "status": "Paid",
+        "paymentDate": "2025-06-28T13:57:43.075Z"
+      }
+    },
+    "id": "1748347572537ni9s27s"
+  },
+  {
+    "name": "Cristina Malgapo",
+    "address": "Gen. Tinio St., Brgy. II, Laur, Nueva Ecija",
+    "solarType": "Hybrid 8kw",
+    "startDate": "2025-06-16T00:00:00.000Z",
+    "totalAmount": 460000,
+    "downPayment": 230000,
+    "paymentTermMonths": 12,
+    "monthlyPayment": 19166.666666666668,
+    "penaltyRate": 0,
+    "paymentOverrides": {},
+    "id": "WAP-4716"
+  }
+]

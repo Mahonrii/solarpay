@@ -1,0 +1,26 @@
+# This is a configuration file for Wrangler, the Cloudflare CLI.
+# It's used to configure your project for local development and deployment on Cloudflare Pages.
+
+name = "solarpay-tracker" # You can name your project here
+compatibility_date = "2024-03-22"
+
+# You need to fill in your Cloudflare Account ID here.
+# You can find it in the Cloudflare dashboard on the right sidebar of the homepage.
+account_id = "YOUR_ACCOUNT_ID_HERE"
+
+# This section configures your project to work with a D1 database.
+[[d1_databases]]
+# This is the variable name your code will use to access the database.
+# We'll use `process.env.DB` in the code.
+binding = "DB"
+# This is the name of the D1 database you created in the Cloudflare dashboard.
+database_name = "solar-app-db"
+# This is the unique ID for your D1 database.
+# You can find this on your database's page in the D1 section of the Cloudflare dashboard.
+database_id = "YOUR_D1_DATABASE_ID_HERE"
+
+# This section tells Wrangler how to run your Next.js app locally
+# while emulating the Cloudflare environment.
+[dev]
+command = "npm run dev" # Tells wrangler to use your existing dev script
+port = 9002 # The port it should run on

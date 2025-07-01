@@ -1,0 +1,15 @@
+
+[
+  {
+    "id": "cabanatuan",
+    "name": "Cabanatuan Branch",
+    "password": "@@@may21utang",
+    "isSuperAdmin": true
+  },
+  {
+    "id": "cagayan",
+    "name": "Cagayan Branch",
+    "password": "$2b$10$cRBlHf1DiC00/1WQsvxnLuhPvtfyNEL6F2XDLzVL9lr/pxXfh.jhC",
+    "isSuperAdmin": false
+  }
+]
