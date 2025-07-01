@@ -1,5 +1,6 @@
 
 'use server';
+type D1Database = any;
 
 import bcrypt from 'bcrypt';
 import type { ClientData } from '@/lib/types';
